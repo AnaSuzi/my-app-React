@@ -79,7 +79,7 @@ export default function Weather() {
 
       <div className="footer">
         <a
-          href="https://github.com/AnaSuzi/App"
+          href="https://github.com/AnaSuzi/my-app-React"
           target="_blank"
           rel="noreferrer"
           className="link"
