@@ -79,19 +79,6 @@ export default function Weather() {
         </div>
       </div>
 
-      <div className="footer">
-        <a
-          href="https://github.com/AnaSuzi/my-app-React"
-          target="_blank"
-          rel="noreferrer"
-          className="link"
-        >
-          open-source code
-        </a>
-
-        <div className="my-name">by Ana Caserman</div>
-      </div>
-
       <script src="script.js"></script>
     </div>
   );
