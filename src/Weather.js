@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import SearchEngine from "./SearchEngine";
+import WeatherForecast from "./WeatherForecast";
 
 export default function Weather() {
   return (
@@ -74,6 +75,7 @@ export default function Weather() {
               <div className="weather-forecast" id="forecast"></div>
             </div>
           </div>
+          <WeatherForecast />
         </div>
       </div>
 

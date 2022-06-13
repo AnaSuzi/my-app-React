@@ -106,7 +106,7 @@ input:focus {
 
 #celsius {
   text-decoration: none;
-  font-size: 30px;
+  font-weight: 900;
   font-family: "Poppins", sans-serif;
   color: #ffffff;
   cursor: default;
@@ -185,4 +185,8 @@ input:focus {
 
 #max-temp {
   font-weight: bolder;
+}
+
+.react-description {
+  list-style: none;
 }
