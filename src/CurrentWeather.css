@@ -19,7 +19,12 @@ h2 {
   align-items: end;
   margin-left: 90px;
 }
-
+h3 {
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  margin-left: 20px;
+}
 .place {
   color: white;
   margin-left: 90px;
@@ -46,4 +51,21 @@ h2 {
 #wind-number,
 #humidity-number {
   color: #f3c5c5;
+}
+
+#celsius {
+  text-decoration: none;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  cursor: default;
+}
+.situation {
+  letter-spacing: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
 }

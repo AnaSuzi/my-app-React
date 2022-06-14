@@ -38,16 +38,6 @@ input:focus {
   color: #f3c5c5;
 }
 
-.situation {
-  letter-spacing: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  color: #ffffff;
-}
-
 .card-title {
   color: #a2d2ff;
   font-weight: bold;
@@ -57,14 +47,6 @@ input:focus {
 
 .first {
   padding-top: 40px;
-}
-
-#celsius {
-  text-decoration: none;
-  font-weight: 900;
-  font-family: "Poppins", sans-serif;
-  color: #ffffff;
-  cursor: default;
 }
 
 .link {
