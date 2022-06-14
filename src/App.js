@@ -3,8 +3,10 @@ import Weather from "./Weather";
 
 export default function App() {
   return (
-    <div className="App">
-      <Weather />
+    <div className="app">
+      <div className="wrapper">
+        <Weather />
+      </div>
       <div className="footer">
         <a
           href="https://github.com/AnaSuzi/my-app-React"
