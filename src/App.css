@@ -2,12 +2,6 @@ body {
   margin-left: 30px;
 }
 
-h3 {
-  font-size: 60px;
-  font-family: "Poppins", sans-serif;
-  color: #ffffff;
-  margin-left: 20px;
-}
 #temp-number {
   font-weight: 900;
 }
