@@ -1,27 +1,6 @@
 body {
   margin-left: 30px;
 }
-h1 {
-  display: block;
-  width: 100%;
-  margin: 0;
-  font-size: 30px;
-  letter-spacing: 3px;
-  font-family: "Poppins", sans-serif;
-  color: #f3c5c5;
-}
-h2 {
-  display: block;
-  padding: 20px 0;
-  font-size: 16px;
-  font-weight: bolder;
-  letter-spacing: 5px;
-  font-family: "Poppins", sans-serif;
-  color: white;
-  margin-top: 0;
-  align-items: end;
-  margin-left: 90px;
-}
 
 h3 {
   font-size: 60px;
@@ -33,30 +12,11 @@ h3 {
   font-weight: 900;
 }
 
-.search-box {
-  border: 3px solid gray;
-  border-radius: 6px;
-  font-family: "Poppins", sans-serif;
-  margin: 60px 10px 10px 90px;
-  padding: 5px 5px;
-  width: 213px;
-  color: gray;
-}
 input:focus {
   outline-color: #f3c5c5;
   background-color: white;
 }
 
-.look {
-  font-family: "Montserrat", sans-serif;
-  border-radius: 6px;
-  border: 2px solid #d9d7f1;
-  color: gray;
-  margin-left: 90px;
-}
-.look:hover {
-  background-color: #d9d7f1;
-}
 .temp {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
@@ -71,11 +31,6 @@ input:focus {
   border-radius: 30%;
   box-shadow: 8px 8px 8px rgba(162, 210, 255, 0.4);
   margin: 2em;
-}
-
-.place {
-  color: white;
-  margin-left: 90px;
 }
 
 .card-sign {
@@ -136,16 +91,6 @@ input:focus {
   background-color: #d9d7f1;
 }
 
-#des {
-  text-decoration: none;
-  font-family: "Montserrat", sans-serif;
-  list-style: none;
-  color: #f3c5c5;
-  font-weight: bold;
-  font-size: 18px;
-  letter-spacing: 3px;
-}
-
 .app-wrapper {
   max-width: 800px;
 
@@ -168,25 +113,4 @@ input:focus {
 .weather-icons {
   height: 50%;
   padding-right: 15px;
-}
-
-#pressure-number,
-#wind-number,
-#humidity-number {
-  color: #f3c5c5;
-}
-
-.temp-now {
-  font-size: 18px;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 6px;
-  font-weight: normal;
-}
-
-#max-temp {
-  font-weight: bolder;
-}
-
-.react-description {
-  list-style: none;
 }

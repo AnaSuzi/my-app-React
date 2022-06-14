@@ -1,0 +1,49 @@
+h1 {
+  display: block;
+  width: 100%;
+  margin: 0;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-family: "Poppins", sans-serif;
+  color: #f3c5c5;
+}
+h2 {
+  display: block;
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-top: 0;
+  align-items: end;
+  margin-left: 90px;
+}
+
+.place {
+  color: white;
+  margin-left: 90px;
+}
+.description {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  color: #f3c5c5;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+.temp-now {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 6px;
+  font-weight: normal;
+}
+#max-temp {
+  font-weight: bolder;
+}
+#pressure-number,
+#wind-number,
+#humidity-number {
+  color: #f3c5c5;
+}
