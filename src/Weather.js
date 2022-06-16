@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 
-import WeatherForecast from "./WeatherForecast";
 import CurrentWeather from "./CurrentWeather";
 
 export default function Weather() {
@@ -11,7 +10,6 @@ export default function Weather() {
         <div className="app-wrapper">
           <div className="row">
             <CurrentWeather defaultCity="Ljubljana" />
-            <WeatherForecast />
           </div>
         </div>
 
