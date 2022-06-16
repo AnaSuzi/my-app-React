@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./CurrentWeather.css";
 import axios from "axios";
+import FormattedDate from "./FormattedDate";
 
 export default function CurrentWeather(props) {
   let [weather, setWeatherData] = useState({ ready: false });
@@ -9,9 +10,9 @@ export default function CurrentWeather(props) {
     setWeatherData({
       ready: true,
       city: response.data.name,
+      date: new Date(response.data.dt * 1000),
       temperature: response.data.main.temp,
       pressure: response.data.main.pressure,
-      date: "fake date, time",
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
       iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
@@ -42,10 +43,12 @@ export default function CurrentWeather(props) {
                   <span className="place">
                     <i className="fa-solid fa-location-dot"></i>
                   </span>
-                  <span className="current">{weather.city}</span>
+                  <span className="current">city</span>
                 </h1>
                 <h2>
-                  <div className="text-capitalize date">{weather.date}</div>
+                  <div className="text-capitalize date">
+                    <FormattedDate date={weather.date} />
+                  </div>
 
                   <div className="temp-now">
                     <span id="max-temp">10</span>°<span>5</span>°
