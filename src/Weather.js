@@ -10,7 +10,7 @@ export default function Weather() {
       <div className="container">
         <div className="app-wrapper">
           <div className="row">
-            <CurrentWeather />
+            <CurrentWeather defaultCity="Ljubljana" />
             <WeatherForecast />
           </div>
         </div>
