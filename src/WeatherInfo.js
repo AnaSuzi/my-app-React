@@ -1,6 +1,7 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherTemperature from "./WeatherTemperature";
+import WeatherIcon from "./WeatherIcon";
 
 export default function WeatherInfo(props) {
   return (
@@ -29,12 +30,7 @@ export default function WeatherInfo(props) {
             </div>
             <div className="col-12 col-sm-6">
               <WeatherTemperature celsius={props.data.temperature} />
-
-              <img
-                src={props.data.iconUrl}
-                id="icon"
-                alt={props.data.description}
-              />
+              <WeatherIcon code={props.data.icon} />
             </div>
           </div>
           <br />
