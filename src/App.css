@@ -7,28 +7,6 @@ input:focus {
   background-color: white;
 }
 
-.card {
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  font-size: 20px;
-  font-weight: lighter;
-  border-radius: 30%;
-  box-shadow: 8px 8px 8px rgba(162, 210, 255, 0.4);
-  margin: 2em;
-}
-
-.card-sign {
-  font-size: 40px;
-  color: #f3c5c5;
-}
-
-.card-title {
-  color: #a2d2ff;
-  font-weight: bold;
-  font-size: 15px;
-  letter-spacing: 5px;
-}
-
 .link {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
