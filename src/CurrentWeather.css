@@ -64,18 +64,7 @@
 .react-description {
   list-style: none;
 }
-.location-button {
-  font-family: "Montserrat", sans-serif;
-  border-radius: 6px;
-  border: 2px solid #d9d7f1;
-  color: #808080;
-  margin: 0 3px;
-  padding: 1px 6px;
-}
 
-.location-button:hover {
-  background-color: #d9d7f1;
-}
 .temp-number {
   font-weight: 900;
   font-size: 60px;
